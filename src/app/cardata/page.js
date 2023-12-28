@@ -1,4 +1,5 @@
 import React from 'react'
+import CardTickects from './CardTickects'
 
 export default function Cardata() {
   return (
@@ -9,6 +10,8 @@ export default function Cardata() {
               <p><small>Currently open card...</small></p>
             </div>
           </nav>
+
+          <CardTickects />
     </div>
   )
 }

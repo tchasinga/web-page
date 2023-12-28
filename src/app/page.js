@@ -1,7 +1,28 @@
+import Link from 'next/link'
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Hello World Welcome here again...</h1>
-    </main>
+    <main>
+    <h2>Dashboard</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus tempore, exercitationem odit, quasi doloremque possimus recusandae alias sequi totam soluta natus iure eius, obcaecati sint dolores blanditiis aspernatur quo officia iusto ut. Et, aliquid sed voluptates iste cum totam, facere explicabo, fugit suscipit ratione aspernatur consequuntur ex mollitia quaerat?</p>
+
+    <Link href="/cardata">
+    <div className="flex justify-center my-8">
+        <button className="btn-primary">View Tickets</button>
+    </div>
+    </Link>
+
+    <h2>Company Updates</h2>
+
+    <div className="card">
+      <h3>New member of the web dev team...</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti.</p>
+    </div>
+    <div className="card">
+      <h3>New website live!</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti, assumenda distinctio adipisci, cupiditate minima eum vitae? Similique dicta est facilis debitis, autem temporibus quo repellat illum unde id iste veritatis eveniet, aspernatur enim quas.</p>
+    </div>
+  </main>
   )
 }

@@ -3,7 +3,12 @@ import React from 'react'
 export default function Cardata() {
   return (
     <div>
-         <h1>Car Data is loaded....</h1>
+        <nav>
+            <div>
+              <h2>Card data</h2>
+              <p><small>Currently open card...</small></p>
+            </div>
+          </nav>
     </div>
   )
 }

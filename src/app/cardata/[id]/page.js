@@ -2,7 +2,7 @@ import React from "react";
 
 async function getCard(_id) {
   try {
-    await new Promise((resolve) => setTimeout(resolve, 5000));
+    await new Promise((resolve) => setTimeout(resolve, 3000));
     const res = await fetch(
       `https://public-api-information.onrender.com/api/getId/${_id}`,
       {

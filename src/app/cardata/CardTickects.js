@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 async function getCard() {
+    await new Promise((resolve) => setTimeout(resolve, 3000));
   const res = await fetch(
     "https://public-api-information.onrender.com/api/all",
     {

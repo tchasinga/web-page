@@ -29,7 +29,7 @@ export default function Home() {
           The History API provides access to the browser&apos;s session history (not
           to be confused with WebExtensions history) through the history global
           object. It exposes useful methods and properties that let you navigate
-          back and forth through the user's history, and manipulate the contents
+          back and forth through the user&apos;s history, and manipulate the contents
           of the history stack.
         </p>
       </div>

@@ -35,7 +35,7 @@ export default function CreateForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-1/2">
+    <form onSubmit={handleSubmit} className="w-1/2 mx-auto">
       <label>
         <span>Title:</span>
         <input

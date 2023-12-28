@@ -17,7 +17,7 @@ export default function Home() {
 
       <Link href="/cardata">
         <div className="flex justify-center my-8">
-          <button className="bg-green-600 text-white">View Card</button>
+          <button className="bg-green-600 text-white hover:bg-slate-950 rounded-lg">View Card</button>
         </div>
       </Link>
 

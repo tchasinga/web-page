@@ -12,7 +12,7 @@ export default function Cardata() {
               <p><small>Currently open card...</small></p>
             </div>
             <Link href="/cardata/create" className="ml-auto">
-              <button>New Card</button>
+              <button className='bg-green-700 text-white'>Add Card</button>
             </Link>
           </nav>
 

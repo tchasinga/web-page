@@ -9,7 +9,7 @@ export default function Home() {
 
     <Link href="/cardata">
     <div className="flex justify-center my-8">
-        <button className="btn-primary">View Tickets</button>
+        <button className="bg-green-600 text-white">View Tickets</button>
     </div>
     </Link>
 

@@ -19,7 +19,7 @@ export default function CreateForm() {
       title,
       body,
       priority,
-      user_email: "learningreactnative@gmail.com",
+      user_email,
     };
 
     const res = await fetch("https://public-api-information.onrender.com/api/creating", {

@@ -19,7 +19,7 @@ export default function CreateForm() {
       title,
       body,
       priority,
-      user_email: "mario@netninja.dev",
+      user_email: "learningreactnative@gmail.com",
     };
 
     const res = await fetch("https://public-api-information.onrender.com/api/creating", {
@@ -62,8 +62,9 @@ export default function CreateForm() {
         </select>
       </label>
       <button className="btn-primary bg-green-700 text-white" disabled={isLoading}>
-        {isLoading && <span >Adding...</span>}
-        {!isLoading && <span>Create card </span>}
+       {
+        isLoading ? "Sending..." : "Create card"
+       }
       </button>
     </form>
   );
